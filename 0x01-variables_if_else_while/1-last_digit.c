@@ -3,8 +3,7 @@
 #include <time.h>
 
 /**
-* main-displays last digit of a string when assigned a random
-number
+* main-displays last digit of a string when assigned a random number
 *
 *Return:Always 0 (Success)
 */
