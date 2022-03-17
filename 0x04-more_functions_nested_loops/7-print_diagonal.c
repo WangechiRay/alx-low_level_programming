@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
-* desc: print_diagonal- draws a diagonal using \ character
+* print_diagonal- draws a diagonal using \ character
 * @n: number of times \ character to be printed
-*
-* Return: Always 0.
 */
 void print_diagonal(int n)
 {
