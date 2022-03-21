@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_array -  prints elements of an array of integers
  * @a: characters to be printed
@@ -14,7 +15,7 @@ printf("%d", a[arr]);
 
 if (arr == n - 1)
 continue;
-printf(",");
+printf(", ");
 }
 
 printf("\n");
