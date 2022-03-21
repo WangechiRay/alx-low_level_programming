@@ -1,3 +1,8 @@
+/*
+ * File: 0-reset_to_98.c
+ *
+ */
+
 #include "main.h"
 
 /**
@@ -8,9 +13,7 @@
       
 void reset_to_98(int *n)
 {
-int n;
-n = 402;
-_putchar("n=%d\n", n);
-reset_to_98(&n);
-_putchar("n=%d\n", n);
+*n = 98;
+}
+
 
