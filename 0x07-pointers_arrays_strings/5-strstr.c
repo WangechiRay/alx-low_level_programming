@@ -15,7 +15,7 @@ int n = 0;
 while (needle[n] != '\0')
 n++;
 
-while(*haystack)
+while (*haystack)
 {
 for (x = 0; needle[x]; x++)
 {
