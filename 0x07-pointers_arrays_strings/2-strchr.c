@@ -13,19 +13,15 @@
 
 char *_strchr(char *s, char c)
 {
-char *p = s;
-int str = 0;
-while (*s != c)
+while (*s)
 {
+if (*s != c)
 s++;
-str++;
-}
-if (*s == c)
-{
-return (p + str);
-}
 else
-{
-return (NULL);
+return (s);
 }
+if (c == '\0')
+return (s);
+
+return (NULL);
 }
