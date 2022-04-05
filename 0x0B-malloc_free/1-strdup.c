@@ -16,8 +16,10 @@ int s, len = 0;
 
 if (str == NULL)
 return (NULL);
-for (point = 0; str[s]; s++)
+
+for (s = 0; str[s]; s++)
 len++;
+
 point = malloc(sizeof(char) * (len + 1));
 
 if (point == NULL)
