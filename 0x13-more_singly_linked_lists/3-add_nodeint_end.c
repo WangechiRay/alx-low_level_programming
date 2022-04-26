@@ -7,7 +7,7 @@
  *        list.
  * @n:interger for the new node to contain
  *
- * Return:NULL if function fails otherwise address of the 
+ * Return:NULL if function fails otherwise address of the
  *        new element.
  */
 
